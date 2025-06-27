@@ -33,7 +33,7 @@ Many health systems remain **reactive, underfunded**, and **unprepared** for out
 * **Logistics Agent** – Allocates resources (beds, staff, medicine)
 * **Public Sentiment Monitor** – Tracks public reaction (simulated)
 * **Government Simulator** – Models impact of policy delays
-
+![ai agent workflow in crewai](public/agent.png "agents flow")
 ### 💳 Masumi-Powered Funding
 
 * Simulate financial flows using **preprod ADA**
