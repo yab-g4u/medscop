@@ -1,4 +1,4 @@
-# 🩺 Medscope — Simulated Outbreak Response & AI-Driven Public Health System
+# 🩺 Medscope — Simulated Outbreak Response & AI-Driven Public Health System (still in builder phase)
 
 **Medscope** is an AI-powered simulation platform designed to **analyze and respond to real-world disease outbreaks**. By integrating decentralized protocols from **Masumi** and intelligent agents from **CrewAI**, Medscope enables public health institutions, NGOs, and researchers to **simulate epidemic scenarios**, **predict disease transmission**, and **optimize resource allocation** — especially for underserved communities.
 
