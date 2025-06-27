@@ -74,8 +74,6 @@ Here's a sneakpeak to show you:
 ![Screenshot of the project's main interface](public/landing2.png "Main Project View")
 ![Screenshot of the project's main interface](public/landing3.png "Main Project View")
 
-## Features
-- ...
 ## 🧪 Getting Started (Local Dev Setup)
 
 ### 1️⃣ Clone the Repository
