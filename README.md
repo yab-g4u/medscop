@@ -183,8 +183,8 @@ All agents are autonomous and coordinated through CrewAI's multi-agent architect
 * [x] CrewAI agent system (MVP)
 * [x] Masumi ADA simulation & payments
 * [ ] Exportable PDF reports
-* [ ] Mobile-friendly dashboard UI
-* [ ] AI-based outbreak prediction from uploaded CSVs
+* [x] Mobile-friendly dashboard UI
+* [x] AI-based outbreak prediction from uploaded CSVs
 
 ---
 
