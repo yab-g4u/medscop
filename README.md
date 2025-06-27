@@ -60,10 +60,10 @@ Many health systems remain **reactive, underfunded**, and **unprepared** for out
 | ---------- | --------------------------------------- |
 | Frontend   | Next.js, TailwindCSS, TypeScript        |
 | Backend    | Node.js, Express, PostgreSQL, Prisma    |
-| AI Agents  | CrewAI, OpenAI, LangChain               |
+| AI Agents  | CrewAI, Gemini, LangChain               |
 | Blockchain | Masumi (Cardano-based testnet)          |
 | Data       | WHO, CDC, NHS, India Gov                |
-| Auth       | NextAuth.js                             |
+| Auth       | Supabase                                |
 | Visuals    | Leaflet.js (Maps), Chart.js, React Flow |
 
 ---
