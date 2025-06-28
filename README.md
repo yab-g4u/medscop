@@ -34,6 +34,8 @@ Many health systems remain **reactive, underfunded**, and **unprepared** for out
 * **Public Sentiment Monitor** – Tracks public reaction (simulated)
 * **Government Simulator** – Models impact of policy delays
 ![ai agent workflow in crewai](public/agent.png "agents flow")
+![succesful deployment](public/6.png "deployment success")
+
 ### 💳 Masumi-Powered Funding
 
 * Simulate financial flows using **preprod ADA**
