@@ -73,6 +73,8 @@ Here's a sneakpeak to show you:
 ![Screenshot of the project's main interface](public/landing-page.png "Main Project View")
 ![Screenshot of the project's main interface](public/landing2.png "Main Project View")
 ![Screenshot of the project's main interface](public/landing3.png "Main Project View")
+![Screenshot of the project's main interface](public/4.png "there are 4 different dashboards based on roles")
+![Screenshot of the project's main interface](public/4.png "goverment role dashboard")
 
 ## 🧪 Getting Started (Local Dev Setup)
 
