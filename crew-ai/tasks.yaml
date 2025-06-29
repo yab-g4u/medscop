@@ -1,0 +1,15 @@
+tasks:
+  - id: analyze_health_data
+    description: Analyze infection rate, fatality risk, and vaccination coverage.
+    agent: health_policy_advisor
+    depends_on: []
+
+  - id: allocate_resources
+    description: Allocate hospitals, beds, and medicine based on simulation and Masumi availability.
+    agent: resource_coordinator
+    depends_on: [analyze_health_data]
+
+  - id: monitor_sentiment
+    description: Assess public sentiment and suggest updates to improve trust.
+    agent: sentiment_analyst
+    depends_on: [allocate_resources]
