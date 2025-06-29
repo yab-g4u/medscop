@@ -1,204 +1,185 @@
-# 🩺 Medscope — Simulated Outbreak Response & AI-Driven Public Health System (still in builder phase)
 
-**Medscope** is an AI-powered simulation platform designed to **analyze and respond to real-world disease outbreaks**. By integrating decentralized protocols from **Masumi** and intelligent agents from **CrewAI**, Medscope enables public health institutions, NGOs, and researchers to **simulate epidemic scenarios**, **predict disease transmission**, and **optimize resource allocation** — especially for underserved communities.
+# 🩺 Medscope — Africa-Focused Epidemic Simulation & AI-Powered Health Response System
 
-Built for the **African Blockchain Championship 2025**, Medscope aligns with **SDG 3 (Good Health and Well-being)** by offering a **data-driven, real-time, and decentralized framework** for modern public health preparedness.
+**Medscope** is a decentralized simulation and planning platform tailored for **African public health systems**. Powered by **CrewAI**'s intelligent agents and **Masumi**'s Cardano-based blockchain protocols, Medscope enables health institutions, NGOs, and policymakers to **simulate outbreaks, coordinate responses, and transparently manage funds**.
 
-🔗 **Live Demo**: [medscop.vercel.app](https://medscop.vercel.app/)
+Built for the **African Blockchain Championship 2025**, Medscope addresses urgent gaps in **epidemic preparedness, funding transparency**, and **infrastructure resilience** — with a bold, local-first approach.
 
----
-
-## 🌍 Problem We’re Solving
-
-Many health systems remain **reactive, underfunded**, and **unprepared** for outbreaks. Medscope tackles this by offering:
-
-* 📊 **Simulated disease outbreak modeling**
-* 🧠 **AI agents for strategic planning**
-* 💸 **Decentralized funding simulations via Masumi**
-* 🌐 **Global transparency and open access to insights**
+🔗 **Live Demo**: [https://medscop.vercel.app](https://medscop.vercel.app)
 
 ---
 
-## 🚀 Key Features
+## 🌍 Africa’s Public Health Crisis
 
-### 🧪 Epidemic Simulation Engine
+Africa accounts for **over 30% of global disease outbreaks**, yet:
 
-* Simulate diseases like COVID-19, Ebola, and Cholera
-* Adjust parameters: transmission rate, population, vaccination, response delay
-* Visualize spread with interactive timelines and maps
+- 🔴 Most countries **lack real-time epidemic forecasting tools**
+- 🔴 Health funding is often **opaque and delayed**
+- 🔴 Crisis response is **centralized**, slow, and under-documented
 
-### 🧠 AI Multi-Agent System (CrewAI)
+Medscope provides a **simulation-driven, AI-coordinated**, and **blockchain-verified** solution to change this narrative.
 
-* **Medical Policy Advisor** – Recommends public health interventions
-* **Logistics Agent** – Allocates resources (beds, staff, medicine)
-* **Public Sentiment Monitor** – Tracks public reaction (simulated)
-* **Government Simulator** – Models impact of policy delays
-![ai agent workflow in crewai](public/agent.png "agents flow")
-![succesful deployment](public/6.png "deployment success")
+---
 
-### 💳 Masumi-Powered Funding
+## 💡 Our Solution
 
-* Simulate financial flows using **preprod ADA**
-* Use cases:
+A **smart outbreak planning platform** that helps African governments and NGOs:
 
-  * Government/NGO simulation wallets
-  * Medical personnel payment simulation
-  * Track funding across agent
+- 🧠 Coordinate AI-driven health agents for response
+- 🧪 Simulate epidemics like Ebola, Cholera, COVID-19
+- 💳 Manage funding transparently via **Masumi testnet wallets**
+- 📊 Make data-driven decisions based on real scenarios
 
-### 📚 Real-World Simulation Datasets
+---
 
-* Integrated from:
+## 🧠 How It Works
 
-  * WHO Epidemic Reports
-  * CDC Influenza Dataset
-  * India COVID Resources (data.gov.in)
-  * NHS medical response APIs
+### 1. Outbreak Simulation  
+Users select a disease and adjust critical parameters:  
+- Transmission Rate  
+- Vaccination Coverage  
+- Population Density  
+- Government Response Delay
+
+### 2. CrewAI Agent Orchestration  
+Medscope auto-generates agent workflows using:
+
+- 👨‍⚕️ **Policy Advisor** – Recommends lockdowns, vaccines, protocols  
+- 🚚 **Logistics Agent** – Distributes beds, staff, supplies  
+- 📣 **Sentiment Agent** – Tracks public reaction  
+- 🏛️ **Government Agent** – Simulates decision delays
+![AI Agents](public/agent.png)
+![Crew ai flow](public/6.png)
+### 3. Masumi Blockchain Integration  
+All financial flows (demo ADA) are routed via agent wallets on **Cardano testnet** using **Masumi’s DID and identity registry**. Every decision is **logged immutably** to simulate public accountability.
+
+---
+
+## 🔗 Sponsor Technology: Masumi Blockchain
+
+We use **Masumi’s open DID framework** to:
+
+- Issue agent-specific IDs & wallets (NGOs, hospitals, gov)
+- Simulate funding transfer in **test ADA**
+- Log outbreak-related decisions for transparency
+- Retrieve balances, histories, and simulate blockchain events
+
+> This integration reflects **Masumi’s vision** for decentralized identity, transparency, and equitable funding access — making it perfect for African public health.
+
+---
+
+## 🧪 Key Features
+
+| Feature                        | Description                                                            |
+| ----------------------------- | ---------------------------------------------------------------------- |
+| 🌍 African Epidemic Simulator | COVID-19, Ebola, Malaria, Cholera outbreak logic with parameter tuning |
+| 🧠 CrewAI Agent System         | Agents simulate coordinated crisis response                           |
+| 💸 Masumi Funding Dashboard   | Track test ADA flows per role and log decisions on-chain (simulated)   |
+| 📊 Real-World Health Data     | WHO, CDC, India & NHS datasets integrated                             |
+| 📈 Multi-role Dashboards      | Tailored interfaces for hospitals, NGOs, governments, researchers      |
+
+---
+
+## 🖥️ Screenshots
+
+![Landing page](public/landing-page.png)
+
+![Government Dashboard](public/5.png)
 
 ---
 
 ## ⚙️ Tech Stack
 
-| Layer      | Tools                                   |
-| ---------- | --------------------------------------- |
-| Frontend   | Next.js, TailwindCSS, TypeScript        |
-| Backend    | Node.js, Express, PostgreSQL, Prisma    |
-| AI Agents  | CrewAI, Gemini, LangChain               |
-| Blockchain | Masumi (Cardano-based testnet)          |
-| Data       | WHO, CDC, NHS, India Gov                |
-| Auth       | Supabase                                |
-| Visuals    | Leaflet.js (Maps), Chart.js, React Flow |
+| Layer      | Tools                                                 |
+| ---------- | ----------------------------------------------------- |
+| Frontend   | Next.js, TypeScript, Tailwind CSS                     |
+| Backend    | Node.js, Express, PostgreSQL, Prisma                  |
+| Blockchain | Masumi (Cardano Testnet), Blockfrost SDK              |
+| AI Agents  | CrewAI, LangChain, Gemini                             |
+| Visualization | Leaflet, Chart.js, React Flow                     |
+| Auth       | Supabase                                              |
 
 ---
 
-Here's a sneakpeak to show you:
-
-![Screenshot of the project's main interface](public/landing-page.png "Main Project View")
-![Screenshot of the project's main interface](public/landing2.png "Main Project View")
-![Screenshot of the project's main interface](public/landing3.png "Main Project View")
-![Screenshot of the project's main interface](public/4.png "there are 4 different dashboards based on roles")
-![Screenshot of the project's main interface](public/5.png "goverment role dashboard")
-
-## 🧪 Getting Started (Local Dev Setup)
-
-### 1️⃣ Clone the Repository
+## 🚀 Local Dev Setup
 
 ```bash
 git clone https://github.com/yab-g4u/medscope.git
 cd medscope
-```
-
-### 2️⃣ Setup Environment Variables
-
-Create a `.env` file and add:
-
-```env
-# Database
-DATABASE_URL="postgresql://user:password@localhost:5432/medscope?schema=public"
-
-# Masumi + Blockchain
-ENCRYPTION_KEY="32_character_secure_key"
-ADMIN_KEY="admin_secure_key"
-BLOCKFROST_API_KEY_PREPROD="your_blockfrost_api_key"
-PURCHASE_WALLET_MNEMONIC="wallet seed"
-SELLING_WALLET_MNEMONIC="wallet seed"
-COLLECTION_WALLET_ADDRESS=""
-```
-
-### 3️⃣ Install Dependencies & Setup DB
-
-```bash
-npm install
-cd frontend
-npm install
-cd ..
+cp .env.example .env
+npm install && cd frontend && npm install && cd ..
 npx prisma db push
-```
-
-### 4️⃣ Start Development Server
-
-```bash
 npm run dev
-```
+````
 
 ---
 
-## 💡 Simulating Outbreaks
+## 💸 Blockchain Simulation with Masumi
 
-Visit `http://localhost:3000/simulation`
+Roles with test wallets:
 
-* Choose a disease (e.g., Cholera)
-* Adjust:
+* 🏛️ Government
+* 🏥 Hospital
+* 🎓 Researcher
+* 🏥 NGO
 
-  * Population size
-  * Vaccination rate
-  * Transmission rate
-  * Government response delay
-* View:
-
-  * Epidemic curves
-  * Mortality rate
-  * Resource usage
+> All ADA is on **Cardano Preprod Testnet** for **safe simulation**.
+> Simulate emergency disbursement, log decision metadata, and validate balance checks.
 
 ---
 
-## 🧠 AI Agent Use Cases
+## 🧠 AI Agent Crew
 
-| Agent            | Role                                                              |
-| ---------------- | ----------------------------------------------------------------- |
-| Policy Advisor   | Predicts outcomes of interventions (lockdowns, vaccination, etc.) |
-| Logistics        | Allocates medical resources during simulation                     |
-| Government       | Simulates delay and decision impact on outbreak curves            |
-| Public Sentiment | Analyzes public trust/sentiment from social data                  |
+| Agent      | Role                                                               |
+| ---------- | ------------------------------------------------------------------ |
+| Policy     | Predicts outcomes of lockdowns, testing, vaccine distribution      |
+| Logistics  | Allocates beds, medicine, personnel based on outbreak stage        |
+| Government | Simulates delayed decision impact                                  |
+| Sentiment  | Evaluates public trust (simulated) based on response effectiveness |
 
-All agents are autonomous and coordinated through CrewAI's multi-agent architecture.
-
----
-
-## 💸 Masumi Integration
-
-* Simulate outbreak funding using **test ADA**
-* Wallets:
-
-  * Purchasing (NGO/government)
-  * Selling (health agents)
-  * Collection (aid pool)
-* Dashboard: `/admin` for tracking transactions and wallets
+Agents are defined in YAML and managed via `CrewAI`’s crew orchestration logic.
 
 ---
 
-## 📊 Real-World Datasets Used
+## 📡 Data Sources
 
-* WHO Epidemic Reports
-* CDC Flu Surveillance Data
-* India COVID Hospital Resources (data.gov.in)
-* NHS API for hospital & response stats
-
----
-
-## 🔐 Security Notes
-
-* Store wallet seed phrases in `.env` (do **not** commit!)
-* All blockchain transactions run on **Masumi Preprod Testnet**
+* World Health Organization (WHO)
+* CDC FluView + Cholera data
+* India’s COVID Hospital APIs
+* NHS UK Emergency Response Datasets
 
 ---
 
-## ✨ Roadmap
+## 🔐 Security & Ethics
 
-* [x] CrewAI agent system (MVP)
-* [x] Masumi ADA simulation & payments
-* [ ] Exportable PDF reports
-* [x] Mobile-friendly dashboard UI
-* [x] AI-based outbreak prediction from uploaded CSVs
+* 🚫 No real ADA used — only **preprod testnet**
+* 🛡️ Wallet secrets never committed
+* ✅ Ethical simulation only — not a trading platform
 
 ---
 
-## 🤝 Team Medscope
+## 🛣️ Roadmap
 
-| Name     | Role                |
-| -------- | ------------------- |
-| Yeabsera | Project Manager     |
+* ✅ MVP Completed with agents + Masumi
+* ✅ Testnet wallet flows for role-based simulation
+* ✅ Frontend dashboards for all roles
+* ⏳ CSV upload prediction models
+* ⏳ Agent-to-agent protocol upgrade (for real-time logic chains)
+* ⏳ Exportable analytics report
 
 ---
 
-> Designed to empower **global collaboration** in epidemic preparedness and sustainable public health innovation. 🌐
- 
+## 🧑🏾‍🤝‍🧑🏾 Built By Africans, For Africa
+
+| Name            | Role                |
+| -----------     | ------------------- |
+| Yeabsera Sisay. | Product & Code Lead |
+
+---
+
+> Medscope is a bold step toward **autonomous epidemic preparedness** in Africa.
+> Open. Transparent. AI-Driven. Blockchain-secured.
+> Powered by vision — built by Africans for the world. 🌍
+
+
+
