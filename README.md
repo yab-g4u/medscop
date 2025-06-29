@@ -5,7 +5,7 @@
 
 Built for the **African Blockchain Championship 2025**, Medscope addresses urgent gaps in **epidemic preparedness, funding transparency**, and **infrastructure resilience** — with a bold, local-first approach.
 
-🔗 **Live Demo**: [https://medscop.vercel.app](https://medscop.vercel.app)
+🔗 **Live Demo**: [https://medscop.vercel.app](medscop.vercel.app)
 
 ---
 
