@@ -59,10 +59,10 @@ Each simulation creates a smart agent crew:
 | Logistics Agent  | Allocates hospital beds, oxygen, medics                    |
 | Government Agent | Simulates funding delays, poor planning                    |
 | Sentiment Agent  | Tracks public reaction to decisions (simulated sentiment)  |
+
+Agents are defined in `agents.yaml`, coordinated in `crew.py`, and leverage `LangChain + Gemini`.
 ![AI Agents](public/agent.png)
 ![Crew flow](public/6.png)
-Agents are defined in `agents.yaml`, coordinated in `crew.py`, and leverage `LangChain + Gemini`.
-
 ### 3️⃣ Blockchain Funding via Masumi  
 All financial activity during outbreak simulation is routed via **Masumi testnet wallets**:
 
