@@ -22,7 +22,7 @@ Africa faces **over 100+ health emergencies annually**, yet:
 
 ## 💡 Our Solution
 
-A full-stack public health intelligence tool that enables:
+A fullstack public health intelligence tool that enables:
 
 - 🧪 Disease simulation with real-time data inputs
 - 🧠 Autonomous multi-agent AI strategy
